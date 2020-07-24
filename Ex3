@@ -1,6 +1,6 @@
-d = int(input("enter day")
-m = int(input("enter month")
-y = int(input("enter year")
+d = int(input("enter day"))
+m = int(input("enter month"))
+y = int(input("enter year"))
 months = [31,28,31,30,31,30,31,31,30,31,30,31]
 a = sum(months[:m-1])
 while d>= 59 :
