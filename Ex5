@@ -1,0 +1,53 @@
+" "  "
+T1 = ( "Iran", "USA", "Canada", "Belgium", "Greece")
+print(T1)
+country=input("enter one country's name")
+country.index()
+" " "
+" " "
+T1 = ( "Iran", "USA", "Canada", "Belgium", "Greece")
+print(T1)
+country=input("enter one country's name")
+country.index()
+A=input("enter a num")
+T1[A]
+" " "
+" " " 
+s1=["baseball","basketball"]
+s2=input("favorite sport")
+s1.append(s2)
+print(s1)
+" " "
+" " "
+subj1=["math","chemistry","history","physics","sports","literature"]
+print(subj1)
+d=input("which one isn't your fav?")
+subj1.remove(d)
+print(subj1)
+" " "
+ff = input("enter 4 of your favorite foods")
+dict1={1:"f1",2:"f2", 3:"f3", 4:"f4"}
+print(dict1)
+df=input("index of one you want to remove")
+dict1.pop(df)
+print(dict1)
+" " "
+" " "
+num = [124,638,839,258,860]
+for i in num :
+    print(i)
+user=input("one three-digit num")
+if user==num[:4]
+    print(num.index())
+else:
+    print("that is not in the list")
+" " "
+pp=input("three names")
+l1=pp
+pp2=input("do you want to add another?")
+if pp2 is true:
+    l2=pp2
+    l1.append(pp2)
+else:
+    print(len(l1))
+" " "
