@@ -23,3 +23,26 @@ else:
     print('Incorrect ans')
 " " "
 " " "
+o = input(" Is it raining?")
+o.lower()
+o=["yes", "no"]
+if o == yes :
+    i = input("Is it windy?")
+    if i == yes:
+        print(" It is too windy for an umbrella")
+    else:
+        print(" Take an umbrella")
+else:
+    print("Enjoy your day.")
+" " "
+" " "
+A=input("Age?")
+if A >= 18 :
+    print("you can vote")
+elif A==17:
+    print("you can learn to drive")
+elif A==16:
+    print("you can buy a lottery tickt")
+elif A<16:
+    print("you can go trick-or-treating")
+" " "
