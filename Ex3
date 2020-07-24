@@ -8,6 +8,5 @@ while d>= 59 :
     d+=1
     print(d)
     break
-print(d)
 b = d+a
 print ( b )
