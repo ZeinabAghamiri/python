@@ -5,9 +5,9 @@ months = [31,28,31,30,31,30,31,31,30,31,30,31]
 a = sum(months[:m-1])
 while d>= 59 :
   if y%4==0 and y%100!=0 or y%400==0 :
-  d+=1
-  print(d)
-  break
+    d+=1
+    print(d)
+    break
 print(d)
 b = d+a
 print ( 'output': b )
